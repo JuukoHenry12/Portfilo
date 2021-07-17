@@ -4,7 +4,7 @@ const Pricing = () => {
       <section id="pricing" class="pricing">
         <div class="container">
           <div class="section-title" data-aos="fade-up">
-            <h2 className="text-center">Projects</h2>
+            <h2 className="text-center">Something I built</h2>
             <hr/>
           </div>
 

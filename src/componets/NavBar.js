@@ -1,9 +1,7 @@
-//import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/images/logo-min.png";
-//import { LinkContainer } from "react-router-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faBars} from  '@fortawesome/free-solid-svg-icons'
 import { HashLink as Link } from "react-router-hash-link";
+import {Button} from  "react-bootstrap"
 const NavBar = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
@@ -28,34 +26,20 @@ const NavBar = () => {
           <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link " aria-current="page" href="#">
-                Home
+                About
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                About me
+                Experince
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
-                Service
+                projects
               </a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                how i work
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                Portfilo
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                contact me
-              </a>
-            </li>
+            <button>Resume</button>
           </ul>
         </div>
       </div> 
