@@ -4,8 +4,8 @@ import { HashLink as Link } from "react-router-hash-link";
 import {Button} from  "react-bootstrap"
 const NavBar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
-      <div class="container-fluid">
+    <nav className="navbar navbar-expand-lg navbar-light">
+      <div className="container-fluid">
         <a class="navbar-brand" href="#">
           <p className="logo">Software Engineer</p>
         </a>

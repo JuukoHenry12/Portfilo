@@ -4,10 +4,14 @@
   --primary-orange:#f9ab00;
   --primary-dark:rgb(255,255,255,0);
   --primary-red:#ef4035;
-
+  --primary-grey:#040414;
 }
 body{
   font-family: 'Robot Condesed', sans-serif;
+}
+
+.bg-dark{
+  background-color: #040414 !important;
 }
 .logo{
   width: 16.0rem;
@@ -15,6 +19,9 @@ body{
   color:#f82249
 }
 /*------------------Menu links------------------*/
+nav{
+  background-color: var(--primary-grey) !important;
+}
 nav a.nav-link{
   font-weight: 500;
   letter-spacing: 0.0375rem;

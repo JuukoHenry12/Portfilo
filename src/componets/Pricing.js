@@ -1,86 +1,99 @@
+import { Card, Container, Row, Col } from "react-bootstrap";
 const Pricing = () => {
   return (
-    <div>
-      <section id="pricing" class="pricing">
-        <div class="container">
-          <div class="section-title" data-aos="fade-up">
-            <h2 className="text-center">Something I built</h2>
-            <hr/>
-          </div>
+    <Container>
+      <div className="projects">
+        <Row>
+          <Col sm={4}>
+            <Card style={{ width: "20rem" }}>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Card Subtitle
+                </Card.Subtitle>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card style={{ width: "20rem" }}>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Card Subtitle
+                </Card.Subtitle>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card style={{ width: "20rem" }}>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Card Subtitle
+                </Card.Subtitle>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
 
-          <div class="row" data-aos="fade-left">
-            <div class="col-lg-3 col-md-6">
-              <div class="box" >
-                <h3>Mobile Money System</h3>
-                <h4>
-                  <sup>ugx</sup>40<span>shs</span>
-                </h4>
-                <ul>
-                  <li>
-                    <p>Less than </p>
-                  </li>
-                  <li>
-                    <p>3,000 sms</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
-              <div class="box featured" >
-                <h3>Loan Application</h3>
-                <h4>
-                  <sup>ugx</sup>20<span> /shs</span>
-                </h4>
-                <ul>
-                  <li>
-                    <p>Between</p>
-                  </li>
-                  <li>
-                    <p>3,000 sms to 100,000 sms </p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-              <div class="box">
-                <h3>Chat Application</h3>
-                <h4>
-                  <sup>ugx</sup>15<span> / shs</span>
-                </h4>
-                <ul>
-                  <li>
-                    <p>Between </p>
-                  </li>
-                  <li>
-                    <p>100,000 to 500,000 sms</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
-              <div class="box" >
-                <span class="advanced">Advanced</span>
-                <h3>Blog Application</h3>
-                <h4>
-                  <sup>ugx</sup>12<span> / shs</span>
-                </h4>
-                <ul>
-                  <li>
-                    <p>more than</p>
-                  </li>
-                  <li>
-                    <p>500,000 sms</p>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
+        <Row>
+          <Col sm={4}>
+            <Card style={{ width: "20rem" }}>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Card Subtitle
+                </Card.Subtitle>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card style={{ width: "20rem" }}>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Card Subtitle
+                </Card.Subtitle>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col sm={4}>
+            <Card style={{ width: "20rem" }}>
+              <Card.Body>
+                <Card.Title>Card Title</Card.Title>
+                <Card.Subtitle className="mb-2 text-muted">
+                  Card Subtitle
+                </Card.Subtitle>
+                <Card.Text>
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </div>
+    </Container>
   );
 };
 
