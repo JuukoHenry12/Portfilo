@@ -23,7 +23,7 @@ const productfeature = () => {
               <li>Data Analyst(R Programming,Python(Jupiter NooteBook,Pandas))</li>
                <li>Dev Ops</li>
                <li>Project Documentation</li>
-               <li>Video Editing</li>
+               <li>Googling</li>
               </ul>
             </Col>
           </Row>
